@@ -1,0 +1,38 @@
+{
+  "name": "Hydra Default Theme",
+  "author": "HydraProjects / Hydra-Sentinel, carloshmarques",
+  "coAuthors": [
+    "Microsoft Edge Copilot"
+  ],
+  "version": "0.1.0",
+  "description": "Default visual theme for the HydraOS environment.",
+  "license": "MIT",
+
+  "theme": {
+    "palette": {
+      "primary": "#3498db",
+      "secondary": "#2ecc71",
+      "accent": "#e74c3c",
+      "neutral": "#2c3e50",
+      "background": "#ecf0f1"
+    },
+
+    "roles": {
+      "surface": "background",
+      "text": "neutral",
+      "highlight": "accent",
+      "interactive": "primary"
+    },
+
+    "states": {
+      "hover": 0.08,
+      "active": 0.12,
+      "disabledOpacity": 0.4
+    },
+
+    "fonts": {
+      "primary": "Segoe UI",
+      "monospace": "Consolas"
+    }
+  }
+}

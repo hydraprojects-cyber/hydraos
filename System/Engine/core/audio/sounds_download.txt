@@ -1,0 +1,18 @@
+# URL                          NAME
+https://youtube.com/...        boot_start
+https://youtube.com/...        pulse
+https://youtube.com/...        fade_in
+https://youtube.com/...        fade_out
+https://youtube.com/...        transition
+yt-dlp -o hydraos/core/audio/temp/%(title)s.%(ext)s URL
+yt-dlp -o temp/%(title)s.%(ext)s URL
+
+ffmpeg -i input.webm -vn -acodec libvorbis output.ogg
+ffmpeg -i temp/input.webm -vn -acodec libvorbis ogg/output.ogg
+
+boot_start.ogg
+pulse.ogg
+fade_in.ogg
+fade_out.ogg
+transition.ogg
+hydraos/core/grub/themes/hydra/sounds/

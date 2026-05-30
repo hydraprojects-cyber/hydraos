@@ -1,0 +1,13 @@
+{
+  "firstRun": false,
+  "settingsApplied": true,
+  "bootMode": "normal",
+  "lockUserConfig": true,
+  "allowAptUpdates": true,
+  "allowZipUpdates": true,
+  "allowGitUpdates": true,
+  "lastUpdateCheck": "2026-05-28T21:34:00",
+  "currentVersion": "1.4.2",
+  "updateChannel": "stable",
+  "autoRestartAfterUpdate": true
+}

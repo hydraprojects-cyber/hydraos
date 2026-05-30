@@ -1,25 +1,38 @@
-###> hydraprojects-cyber/ ###
+###> HydraOS ###
 
-##### Folders #####
-build/
-dist/
-node_modules/
-vendor/
-var/
-.tmp/
+# Local runtime state (never versioned)
+.hydralocal/
+HydraLocal/
 
-# IDE's
+# Logs
+*.log
+logs/
+System/logs/
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+
+# OS-specific junk
+Thumbs.db
+.DS_Store
+
+# IDEs (users may use any IDE)
 .vscode/
 .idea/
 
+# Build artifacts (C# / .NET)
+bin/
+obj/
 
-##### Files #####
-ignore.*
-*.ignore.*
+# Backup files
+*.bak
+*.old
+*.orig
 
-# Environment variables and secret keys
-.env
-.env.test
+# Sensitive files (if ever created)
+*.key
 *.pem
 
-###< hydraprojects-cyber/ ###
+###< HydraOS ###

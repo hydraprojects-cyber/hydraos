@@ -1,0 +1,98 @@
+{
+  "HydraOS": {
+    "Designation": "Hydra Operating System",
+    "Codename": "Continuum",
+    "Version": "0.1.0-dev",
+    "Build": "2026.05.17",
+    "Custodian": "Carlos Marques",
+    "Repository": "D:\\HydraOS",
+    "Status": "Awakening",
+    "Ceremony": {
+      "Voice": true,
+      "NarrationMode": "MotherShip",
+      "Progression": "Ceremonial"
+    }
+  },
+
+  "Modules": {
+    "Kernel": {
+      "Active": true,
+      "Components": [
+        "HydraBridge",
+        "HydraDiagnostics",
+        "HydraEvents",
+        "HydraHostMode",
+        "HydraInjector",
+        "HydraNotifications",
+        "HydraShellAnimations",
+        "HydraSystemMonitor",
+        "HydraThemeSync"
+      ]
+    },
+
+    "HydraDesktop": {
+      "Active": true,
+      "Shell": "HydraShell",
+      "Animations": true
+    },
+
+    "HydraHeal": {
+      "Active": true,
+      "Policies": "default"
+    },
+
+    "HydraShield": {
+      "Active": true,
+      "Signatures": "internal",
+      "Quarantine": true
+    },
+
+    "HydraPortal": {
+      "Active": false,
+      "Mode": "LocalServer",
+      "Encryption": "Stellar",
+      "Notes": "Module planned for future release"
+    }
+  },
+
+  "Themes": {
+    "Active": "default",
+    "Sync": true,
+
+    "Paths": {
+      "Presets": "assets/themes/presets/",
+      "ActivePreset": "assets/themes/presets/DefaultTheme.json",
+      "Wallpapers": "assets/images/wallpapers/",
+      "Icons": "assets/images/icons/",
+      "Forms": "assets/images/forms/"
+    }
+  },
+
+  "Services": {
+    "Notifications": true,
+    "Voice": true,
+    "Diagnostics": true,
+    "Update": true,
+    "SyncHub": true
+  },
+
+  "Paths": {
+    "Assets": "assets/",
+    "Images": "assets/images/",
+    "Audio": "assets/audio/",
+    "Scripts": "hydraos/scripts/",
+    "Kernel": "hydraos/kernel/",
+    "Desktop": "hydraos/HydraDesktop/"
+  },
+
+  "State": {
+    "FirstBoot": false,
+    "LastBoot": "2026-05-17T23:47:00Z",
+    "Integrity": "Verified"
+  },
+
+  "Signature": {
+    "GeneratedBy": "HydraOS",
+    "Verified": true
+  }
+}
