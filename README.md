@@ -177,3 +177,9 @@ Enjoy! 😃
 ## ⚖️📝 **License and Changelog**
 
 See the license in the '**[LICENSE](LICENSE)**' file.
+
+Watch the changes in the '**[CHANGELOG.md](CHANGELOG.md)**' file.
+---
+
+**Made with a lot of ❤️ by [@carloshmarques](https://github.com/carloshmarques)**  
+HydraOS is maintained by *[hydraprojects-cyber](https://github.com/hydraprojects-cyber)* 🐍🔥
